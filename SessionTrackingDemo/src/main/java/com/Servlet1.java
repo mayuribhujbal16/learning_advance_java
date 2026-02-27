@@ -46,7 +46,7 @@ public class Servlet1 extends HttpServlet {
 			{
 				pw.print("Sorry.....Incorrect Password!!! ");
 				RequestDispatcher rd = request.getRequestDispatcher("/index.html");
-				rd.include(request, response);
+				rd.forward(request, response);
 				
 			}
 		}
