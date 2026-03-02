@@ -20,15 +20,43 @@
 <param-value>Mayuri</param-value>
 </init-param>
 
+<init-param>
+<param-name>Surname</param-name> 
+<param-value>Bhujbal</param-value>
+</init-param>
+
+
+</servlet>
+
+  <servlet>  
+
+<servlet-name>ServletTwo</servlet-name>
+<servlet-class>com.ServletTwo</servlet-class> 
+
+<init-param>
+<param-name>Driver</param-name> 
+<param-value>com.mySQL</param-value>
+</init-param>
+
+<init-param>
+<param-name>Setting</param-name> 
+<param-value>File</param-value>
+</init-param>
+
+
 </servlet>
 
 <servlet-mapping> 
-
 <servlet-name>ServletConfigClass</servlet-name>
 <url-pattern>/ServletConfigClass</url-pattern>
-
 </servlet-mapping>
   
+<servlet-mapping> 
+<servlet-name>ServletTwo</servlet-name>
+<url-pattern>/ServletTwo</url-pattern>
+
+</servlet-mapping>
+ 
   
   
 </web-app>
